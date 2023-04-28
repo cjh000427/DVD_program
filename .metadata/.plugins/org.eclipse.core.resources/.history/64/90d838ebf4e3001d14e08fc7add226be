@@ -1,0 +1,60 @@
+package com.java.movie.domain;
+
+import java.time.LocalDateTime;
+
+/*
+CREATE TABLE movie (
+    serialNumber NUMBER(5) PRIMARY KEY,
+    movie_name VARCHAR2(50) NOT NULL,
+    nation VARCHAR2(20) NOT NULL,
+    pub_year DATE,
+    rental VARCHAR2(1) NOT NULL
+);
+
+CREATE SEQUENCE movie_seq
+    START WITH 1
+    INCREMENT BY 1
+    MAXVALUE 100000
+    NOCYCLE
+    NOCACHE;
+ */
+
+public class Movie {
+
+	private int serialNumber;
+	private String movieName;
+	private String nation;
+	private LocalDateTime pubYear;
+	private boolean rental;
+	
+	public Movie() {}
+
+	public Movie(int serialNumber, String movieName, String nation, LocalDateTime pubYear, boolean rental) {
+		super();
+		this.serialNumber = serialNumber;
+		this.movieName = movieName;
+		this.nation = nation;
+		this.pubYear = pubYear;
+		this.rental = rental;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+

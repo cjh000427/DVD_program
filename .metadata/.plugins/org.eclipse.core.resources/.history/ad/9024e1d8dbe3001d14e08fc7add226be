@@ -1,0 +1,12 @@
+package com.java.user.repository;
+
+import com.java.user.domain.User;
+
+public class UserRepository {
+
+	//ctrl + shift + o 누르면 모든 필요한 import 해줌
+	public void addUser(User user) {
+		
+	}
+	
+}

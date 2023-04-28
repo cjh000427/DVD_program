@@ -1,0 +1,19 @@
+package com.java.common;
+
+public class DataBaseConnection {
+	
+	//싱글톤으로 활용하려면 생성메서드에 public이 아닌 private
+	private DataBaseConnection() {
+		
+	}
+	
+	private static DataBaseConnection connection
+					= new DataBaseConnection();
+	
+	public DataBaseConnection getInstance() {
+		return connection;
+	}
+	
+	
+
+}
